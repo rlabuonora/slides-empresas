@@ -15,17 +15,18 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
-  fig.width=6, fig.height=3.5, fig.retina=3,
-  out.width = "100%",
-  cache = FALSE,
-  echo = FALSE,
-  message = FALSE, 
-  warning = FALSE,
-  hiline = TRUE,
-  dev = "png", 
-  dev.args = list(type = "cairo-png")
+	echo = FALSE,
+	fig.height = 3.5,
+	fig.retina = 3,
+	fig.width = 6,
+	message = FALSE,
+	warning = FALSE,
+	cache = FALSE,
+	dev = "png",
+	dev.args = list(type = "cairo-png"),
+	hiline = TRUE,
+	out.width = "100%"
 )
-
 library(tibble)
 library(ggplot2)
 library(showtext)
@@ -73,7 +74,6 @@ style_mono_accent(
   transform: translate(-50%, -50%);
 }
 
-</style>
 
 
 .remark-slide-content {
@@ -85,20 +85,27 @@ li {
   margin-bottom: 20px;
 }
 
+</style>
 
 
 # Las capacidades productivas de la sociedad
 
 - Dependen de 
   - Fuerza laboral
-  - Stock y calidad del capital (maquinaria, edificios, etc.), 
+  
+  - Stock y calidad del capital (maquinaria, edificios, etc.)
+  
   - Las capacidades tecnológicas
+  
   - Las instituciones.
 
 
 - La __estructura productiva__ de una economía. 
+
   - ¿Qué es?
+  
   - Uruguay en el siglo XIX vs hoy.
+  
   - Uruguay vs. Japón.
 
 ---
@@ -112,8 +119,11 @@ li {
 # Maximización de beneficios
 
 ¿Qué desean los empresarios? 
+
 - ¿Vender lo más posible? `r emo::ji("x")`
+
 - ¿Gastar lo menos posible? `r emo::ji("x")`
+
 - Ganar las mayores ganancias posibles. `r emo::ji("white_check_mark")`
 
 ---
@@ -121,7 +131,9 @@ li {
 # Algunos conceptos
 
 - __Producto Total__. Es la cantidad producida para determinado nivel de input.
+
 - __Producto Marginal__. Es la cantidad extra que produce la última unidad de input que uso.
+
 - __Producto Medio__. Es la cantidad de output por unidad de producto.
 
 <!-- --- -->
@@ -144,6 +156,7 @@ li {
 Relaciona la cantidad de inputs con el output.
 
 - $F(K, L) = Y$
+
 - $F(L)  = Y$
 
 ---
@@ -157,14 +170,18 @@ Relaciona la cantidad de inputs con el output.
 # Rendimientos Marginales Decrecientes
 
 - ¿Qué son? 
+
 - Vamos a suponer que las empresas tienen rendimientos marginales decrecientes __a partir de cierto nivel de producción__.
 
 ---
 # Retornos a escala
 
 - ¿Qué pasa cuando cambio todos los inputs a la vez?
+
 - Si $F(2*K, 2*L) = 2*Y$ tengo rendimientos __constantes__ a escala.
+
 - Si $F(2*K, 2*L) > 2*Y$ tengo rendimientos __crecientes__ a escala.
+
 - Si $F(2*K, 2*L) < 2*Y$ tengo rendimientos decrecientes a escala.
 
 
@@ -181,6 +198,7 @@ Relaciona la cantidad de inputs con el output.
 
 
 - Producto por trabajador
+
 - Productividad multifactorial
 
 
@@ -189,20 +207,23 @@ Relaciona la cantidad de inputs con el output.
 # Costos
 
 - Las empresas incurren en costos para producir.
+
 - Sus decisiones dependen de las curvas de costos que enfrentan, porque los costos impactan en los beneficios.
+
 - Analizamos varias curvas de costos y el __costo de oportunidad__.
-class: center
 
 ---
 # Plazos cortos y largos.
 
 - En el corto plazo solo se ajustan factores __variables__.
+
 - En el largo plazo se ajustan __todos los factores productivos__.
 
 ---
 # Costo Fijo y Variable
 
 - Son funciones de la cantidad producida $q$.
+
 - Los costos fijos no dependen de la cantidad producida, los variables si.
 
 
@@ -224,10 +245,14 @@ class: center
 # Costo Marginal
 
 - Es el costo de producir una unidad extra.
+
 - Ejemplo de costo marginal bajo:
   - Software
+  
   - Aerolíneas
+  
 - Ejemplo de costo marginal alto
+
   - Electricidad con alta demanda.
   
   
@@ -269,10 +294,15 @@ $$CMe = \frac{CT}{q}$$
 
 ---
 # Costos Medios, Fijos y Marginales (2)
+
 - El Costo Fijo Medio decrece cuando aumentamos la cantidad producida.
+
 - Los Costos Medios y Marginales tienen forma de U por la productividad marginal (creciente al principio y decreciente después).
+
 - Si el costo marginal es menor que el costo medio, la última unidad fue más __barata__ que el promedio. Eso hace que el costo medio __baje__.
+
 - Si el costo marginal es mayor que el costo medio, la última unidad fue más __cara__ que el promedio. Eso hace que el costo medio __suba__.
+
 - Si el costo marginal es igual al costo medio, el costo medio está en un extremo, ni sube ni baja.
 
 
@@ -288,19 +318,23 @@ $$CMe = \frac{CT}{q}$$
 | 4 |55   |105  | 160  |
 | 5 |55   |155  | 210  |
 | 6 |55   |225  | 280  |
+
 ---
 
 .pull-left[
 - La forma de la curva de costos depende de la productividad marginal.
+
 - Si hay un factor fijo (capital), al __principio__ la productividad marginal crece a medida que aumentamos el factor variable (trabajo).
+
 - Eso implica que le costo marginal baja.
+
 - Luego de que llegamos a cierto nivel, el factor fijo se satura, y la productivdad marginal empieza a caer.
+
 - Esto hace que los costos marginales suban.
 ]
 
 .pull-right[
 <img src="imgs/rendimientos_costos.png" />
-
 ]
 
 
