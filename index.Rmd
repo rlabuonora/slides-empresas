@@ -307,6 +307,9 @@ $$CMe = \frac{CT}{q}$$
 
 
 ---
+
+![](imgs/curvas_costos.png)
+---
 # Costos Fijos Medios, Costos Variables Medios y Costos Marginales Medios.
 
 | q |CF   |CV    |CT   |
@@ -322,6 +325,9 @@ $$CMe = \frac{CT}{q}$$
 ---
 
 .pull-left[
+
+### Productividad marginal y costos
+
 - La forma de la curva de costos depende de la productividad marginal.
 
 - Si hay un factor fijo (capital), al __principio__ la productividad marginal crece a medida que aumentamos el factor variable (trabajo).
@@ -334,7 +340,18 @@ $$CMe = \frac{CT}{q}$$
 ]
 
 .pull-right[
-<img src="imgs/rendimientos_costos.png" />
+![](imgs/productividad_costos.png)
 ]
 
+---
+
+.pull-left[
+
+### Costos y maximización de beneficio
+
+- El beneficio se maximiza cuando la distancia entre el ingreso total (IT) y el costo total (CT) es mayor.
+]
+.pull-right[
+![](imgs/costos_beneficios.png)
+]
 
